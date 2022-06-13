@@ -1,0 +1,21 @@
+[全般]
+PHP,SQL,JavaScriptを使って動的なサイトを作るのは初めてだったので手探りで進めたが、一通りの機能の揃ったブログを完成させることができた。
+ウェブサイトを作る流れを体験できたので、次回からの作成はだいぶスムーズにできそう。
+
+[blog/php/Analytics]
+アクセス解析クラス。
+ユニークアクセスかを判断するメソッドにこだわり。
+blog/data/FixedData.ini を編集することで様々な条件に対応できる。
+(12時間毎、毎日0時、隔週水曜日15時 等)
+
+[blog/php/calendar、calendarBlogLink]
+作っていく中でDateTimeクラスの使い方の理解が深まった。
+
+[blog/create.php]
+preg_replaceやpreg_replace_callbackを使うために正規表現について学び、理解が深まった。
+
+[blog/php/Xml]
+XMLファイルのスクレイピングについての理解が深まった。
+
+[blog/template/2/entry.php]
+見出しへのページ内ジャンプを作る部分で、HTMLファイルのスクレイピングについての理解が深まった。

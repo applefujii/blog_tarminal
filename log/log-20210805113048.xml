@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<access_log>
+  <log>
+    <account_id></account_id>
+    <site>1</site>
+    <blog_id>0</blog_id>
+    <article_id>0</article_id>
+    <flag_unique>1</flag_unique>
+    <datetime>2021-08-05T11:19:07+09:00</datetime>
+  </log>
+</access_log>

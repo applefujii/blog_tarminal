@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aggregate>
+  <place value="site" count="106">
+    <place2 value="1" count="106">
+      <year value="2021" count="106">
+        <month value="4" count="98">
+          <day value="13" count="23"/>
+          <day value="14" count="38"/>
+          <day value="15" count="9"/>
+          <day value="16" count="28"/>
+        </month>
+        <month value="8" count="8">
+          <day value="4" count="2"/>
+          <day value="5" count="6"/>
+        </month>
+      </year>
+    </place2>
+  </place>
+  <place value="blog" count="42">
+    <place2 value="1" count="21">
+      <year value="2021" count="21">
+        <month value="4" count="20">
+          <day value="13" count="13"/>
+          <day value="14" count="5"/>
+          <day value="16" count="2"/>
+        </month>
+        <month value="8" count="1">
+          <day value="5" count="1"/>
+        </month>
+      </year>
+    </place2>
+    <place2 value="2" count="21">
+      <year value="2021" count="21">
+        <month value="4" count="20">
+          <day value="14" count="18"/>
+          <day value="15" count="1"/>
+          <day value="16" count="1"/>
+        </month>
+        <month value="8" count="1">
+          <day value="5" count="1"/>
+        </month>
+      </year>
+    </place2>
+  </place>
+  <place value="article" count="18">
+    <place2 value="1" count="2">
+      <year value="2021" count="2">
+        <month value="4" count="2">
+          <day value="13" count="1"/>
+          <day value="16" count="1"/>
+        </month>
+      </year>
+    </place2>
+    <place2 value="2" count="5">
+      <year value="2021" count="5">
+        <month value="4" count="4">
+          <day value="13" count="1"/>
+          <day value="14" count="2"/>
+          <day value="16" count="1"/>
+        </month>
+        <month value="8" count="1">
+          <day value="5" count="1"/>
+        </month>
+      </year>
+    </place2>
+    <place2 value="3" count="3">
+      <year value="2021" count="3">
+        <month value="4" count="3">
+          <day value="13" count="2"/>
+          <day value="16" count="1"/>
+        </month>
+      </year>
+    </place2>
+    <place2 value="5" count="6">
+      <year value="2021" count="6">
+        <month value="4" count="5">
+          <day value="14" count="4"/>
+          <day value="16" count="1"/>
+        </month>
+        <month value="8" count="1">
+          <day value="5" count="1"/>
+        </month>
+      </year>
+    </place2>
+    <place2 value="4" count="2">
+      <year value="2021" count="2">
+        <month value="4" count="2">
+          <day value="14" count="1"/>
+          <day value="16" count="1"/>
+        </month>
+      </year>
+    </place2>
+  </place>
+</aggregate>

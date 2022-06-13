@@ -1,0 +1,72 @@
+html {
+    font-size: 15px;
+}
+
+footer {
+    height: 10rem;
+    color: white;
+    background-color: rgb(86, 95, 86);
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid rgb(63, 70, 63);
+}
+
+nav button {
+    margin-left: 1rem;
+}
+.navMargin {
+    margin-top: 3.4rem;
+}
+.jumbotron {
+    background:url(https://via.placeholder.com/500x300) center no-repeat;
+    background-size: cover;
+}
+#main {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    background: black;
+}
+#blog-list {
+    display: flex;
+    flex-grow: 100;
+    flex-direction:column;
+    background: red;
+}
+#sidebar {
+    flex-basis: 300px;
+    padding: 2rem 1rem;
+    background: blue;
+}
+#sidebar hr {
+    width: 90%;
+}
+#sidebar a {
+    display: block;
+}
+#sidebar .newer {
+    margin-left: 1rem;
+}
+.blog-article {
+    flex-basis: 200px;
+    background: green;
+    margin: 1rem 2rem 1rem 2rem;
+    padding: 1rem 2rem;
+}
+
+footer a {
+    color: rgb(160, 160, 160);
+}
+footer a :hover{
+    color: rgb(158, 161, 179);
+}
+footer .footer-container {
+    display: flex;
+    padding: 1rem 5rem;
+}
+footer .footer-element {
+    flex-basis: 100%;
+    color:rgb(228, 228, 228);
+}

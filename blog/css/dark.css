@@ -1,0 +1,282 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    background-color: rgb(88, 88, 88) !important;
+}
+
+footer {
+    height: 10rem;
+    color: white;
+    background-color: rgb(86, 95, 86);
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid rgb(63, 70, 63);
+}
+
+.width-1200 {
+    width: 1200px;
+    margin: 0 auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    color: white;
+}
+
+.inline {
+    display: inline;
+}
+.block {
+    display: block;
+}
+.inline-block {
+    display: inline-block;
+}
+.no-change {
+    color: white;
+}
+.no-change:hover {
+    color: white;
+    text-decoration-line: none;
+    font-stretch: none;
+}
+.right {
+    text-align: right;
+}
+.jump {
+    display: block;
+    padding-top: 3.4rem;
+    margin-top: -3.4rem;
+}
+
+div .blog-title {
+    color: white;
+    display: inline-block;
+}
+
+div .blog-text {
+    color: white;
+}
+
+div .blog-tag a {
+    color: white;
+    margin-right: 1rem;
+}
+
+div .index {
+    width: calc(100% - 4rem);
+    position: relative;
+    margin-left: 2rem;
+}
+
+
+
+nav button {
+    margin-left: 1rem;
+}
+nav select {
+    width: 8rem;
+    background-color:#343a40;
+    color:rgb(138, 140, 155);
+    border: 1px solid rgb(219, 222, 240);
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+}
+nav option {
+    color: white;
+}
+.navMargin {
+    margin-top: 3.4rem;
+}
+nav .center {
+    margin-right: 2rem;
+}
+nav .search {
+    margin-left: 0.3rem;
+}
+.jumbotron {
+    background-color: black !important;
+    background-size: contain;
+    margin-bottom: 0 !important;
+    height: 300px;
+}
+.jumbotron h1 {
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px 6px black;
+    margin-left: 1rem;
+}
+.jumbotron p {
+    color: white;
+    text-shadow: 3px 3px 6px black;
+    margin-left: 1rem;
+}
+.jumbotron a:hover {
+    color: white;
+    text-decoration-line: none;
+    font-stretch: none;
+}
+
+#main {
+    background-color: rgb(75, 75, 75);
+    min-height: 50rem;
+    padding-bottom: 2rem;
+}
+#main a {
+    color: rgb(181, 187, 207);
+}
+div .nav a:hover {
+    text-decoration-line: underline;
+}
+div .nav .disabled {
+    color: white !important;
+}
+#contents {
+    min-height: 120rem;
+    position: relative;
+    background-color: rgb(75, 75, 75);
+}
+#blog-list {
+    min-width: 300px;
+    min-height: 50rem;
+    display: flex;
+    flex-direction:column;
+    flex-grow: 100;
+    margin-right: 300px;
+    background-color: rgb(75, 75, 75);
+}
+#blog-list .blog-article-head {
+    flex-basis: 320px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(32, 32, 32);
+    margin: 1rem 2rem 1rem 2rem;
+    padding: 1rem 2rem;
+}
+#blog-list .blog-article-head .gradation {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+}
+#blog-list .blog-article-head .blog-tag {
+    position: absolute;
+    bottom: 1rem;
+    z-index: 1;
+}
+#blog-view {
+    max-width: 900px;
+    display: flex;
+    flex-grow: 100;
+    flex-direction: column;
+    margin-right: 300px;
+    background-color: rgb(75, 75, 75);
+    z-index: 1;
+}
+#blog-view .blog-article {
+    background-color: rgb(32, 32, 32);
+    flex-basis: 200px;
+    margin: 1rem 2rem 1rem 2rem;
+    padding: 1rem 2rem;
+}
+#blog-view .blog-article h1 {
+    font-size: 2rem;
+    margin: 4rem 2rem 0.2rem 0;
+    padding: 0.3rem 0 0.3rem 0.3rem;
+    background-color: cornflowerblue;
+    border-left: solid 1rem white;
+}
+#blog-view .blog-article h2 {
+    font-size: 1.6rem;
+    display: inline-block;
+    min-width: 32rem;
+    margin: 3rem 0 0.2rem 0;
+    padding: 0.2rem 0.5rem;
+    background-color: darkseagreen;
+    border-left: double 1rem white;
+    border-top-right-radius: 1rem 1.6rem;
+}
+#blog-view .blog-article h3 {
+    font-size: 1.3rem;
+    display: inline-block;
+    position: relative;
+    min-width: 12rem;
+    margin: 2rem 0 0.2rem 0;
+    padding: 0.2rem 0.5rem;
+    background: linear-gradient(to top,lightcoral,rgba(240, 128, 128, 0.2));
+}
+#blog-view .blog-article .title {
+    font-size: 2rem;
+}
+#blog-view .blog-article .list {
+    margin: 1rem 0 1rem 3rem;
+    border: solid 1px black;
+    background-color: #52525250;
+}
+#blog-view .blog-article img {
+    width: 70%;
+    height: 320px;
+    object-fit: contain;
+    object-position: left;
+    margin: 0.5rem;
+}
+#blog-view .blog-article .control-botton {
+    display: block;
+}
+#blog-view .blog-article .edit {
+    float: right;
+    margin-right: 1rem;
+}
+#blog-view .blog-article .delete {
+    float: right;
+}
+#sidebar {
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    padding: 2rem 1rem;
+    background-color: rgb(109, 109, 109);
+}
+#sidebar hr {
+    width: 90%;
+}
+#sidebar a {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+#sidebar .block {
+    margin-bottom: 3.5rem;
+}
+#sidebar .newer-article {
+    margin-left: 1rem;
+}
+#sidebar .newer-tag {
+    margin-left: 1rem;
+}
+.view {
+    position:absolute;
+    bottom:1rem;
+    right:4rem;
+}
+#page-select {
+    margin: 1rem 3rem 1rem 0;
+    text-align: right;
+}
+
+footer a {
+    color: rgb(160, 160, 160);
+}
+footer a :hover{
+    color: rgb(158, 161, 179);
+}
+footer .footer-container {
+    display: flex;
+    padding: 1rem 5rem;
+}
+footer .footer-element {
+    flex-basis: 100%;
+    color:rgb(228, 228, 228);
+}
